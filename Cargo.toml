@@ -1,0 +1,26 @@
+[package]
+name = "hanabi"
+version = "0.1.0"
+edition = "2018"
+authors = ["StackerDesu <mistyraincloudservice@gmail.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+
+[package.metadata.bootimage]
+build-command = ["xbuild"]
+run-command = ["qemu-system-x86_64", "-drive", "format=raw,file={}"]
+#run-args = []
+#test-args = []
+#test-success-exit-code = 0
+#test-timeout = 300
+#test-no-reboot = true
+
+
+[dependencies]
+bootloader = "0.9.8"
+volatile = "0.2.3"
