@@ -23,8 +23,9 @@ rustup override add nightly
 4. <p>📦Install xbuild and bootimage,</p><p>🏭they can help you quickly build an operating system image.</p>
 
 ```shell
-cargo install cargo-xbuild
+rustup component add rust-src
 rustup component add llvm-tools-preview
+cargo install cargo-xbuild
 cargo install bootimage
 ```
 
