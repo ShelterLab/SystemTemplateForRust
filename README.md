@@ -28,7 +28,7 @@ rustup component add llvm-tools-preview
 cargo install bootimage
 ```
 
-5. <p>✍From now on you can directly start writing the code of the operating system!</p>
+5. <p>✍From now on you can directly start writing the code of the operating system!</p><p>The entry point of this operating system is the <code>_start</code> function in <code>main.rs</code>!</p>
 
 # 🏃‍Build And Run
 
