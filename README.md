@@ -2,6 +2,7 @@
 
 <p>🔧This is a template that can help you quickly build <code>your own OS</code>> using <code>rust</code>.</p>
 <p>🦀<code>HanabiOS</code> is built on it.</p>
+<p>🙏I hope that everyone can use it to understand and learn the underlying principles of computers and the operation of operating systems without barriers!</p>
 
 # 📕Prepare for it
 
