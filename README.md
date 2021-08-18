@@ -1,4 +1,4 @@
-# 🌠OS Template
+# 🌠System Template
 
 <p>🔧This is a template that can help you quickly build <code>your own OS</code> using <code>rust</code>.</p>
 <p>🦀<code>HanabiOS</code> is built on it.</p>
