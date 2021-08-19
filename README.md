@@ -4,7 +4,7 @@
 <p>🦀<code>HanabiOS</code> is built on it.</p>
 <p>🙏I hope that everyone can use it to understand and learn the underlying principles of computers and the operation of operating systems without barriers!</p>
 
-# 📕Prepare for it
+# 📕Prepare For It
 
 1. <p>🌙Use the following command to install the <code>nightly version of rust</code>,</p><p>😀because we may need to use some features that only this version provides.</p>
 
