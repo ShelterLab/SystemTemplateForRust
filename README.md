@@ -35,7 +35,7 @@ cargo install bootimage
 
 ```shell
 cargo bootimage --target target.json
-qemu-system-x86_64 -drive format=raw,file=./target/target/debug/bootimage-hanabi.bin
+qemu-system-x86_64 -drive format=raw,file=./target/target/debug/bootimage-os_template.bin
 ```
 
 # 🛑Precautions
