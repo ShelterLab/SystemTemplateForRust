@@ -34,7 +34,7 @@ cargo install bootimage
 # 🏃‍Build And Run
 
 ```shell
-cargo bootimage --target target.json
+cargo bootimage
 qemu-system-x86_64 -drive format=raw,file=./target/target/debug/bootimage-os_template.bin
 ```
 
