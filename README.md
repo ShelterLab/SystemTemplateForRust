@@ -34,7 +34,7 @@ cargo install bootimage
 # 🏃‍Build And Run
 
 ```shell
-cargo bootimage
+cargo bootimage --target target.json
 qemu-system-x86_64 -drive format=raw,file=./target/target/debug/bootimage-os_template.bin
 ```
 
@@ -44,5 +44,6 @@ qemu-system-x86_64 -drive format=raw,file=./target/target/debug/bootimage-os_tem
 2. <p>📜The <code>target.json</code> given here can only help you build an operating system for the <code>x86_64 platform</code>,</p><p>✍please write your own for other platforms!</p><p>🤝If you have <code>target.json</code> for other platforms,</p><p>🤣please submit it to us!</p><p>❤Thank you!</p>
 
 # 👍Special Thanks
+
 1. [OSDev (Wiki)](https://wiki.osdev.org/Main_Page)
 2. [Writing an OS in Rust](https://os.phil-opp.com/)
